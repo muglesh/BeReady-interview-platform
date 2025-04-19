@@ -3,16 +3,16 @@
 import {z} from 'zod'
 import {zodResolver} from "@hookform/resolvers/zod"
 import {useForm} from "react-hook-form"
-import {Button} from "@/components/ui/button"
-import {Form} from "@/components/ui/form"
-import FormField from "@/components/FormField";
+import {Button} from "./ui/button"
+import {Form} from "./ui/form"
+import FormField from "./FormField";
 import Image from "next/image"
-import logo from '@/public/logo.svg'
+import logo from '../public/logo.svg'
 import Link from "next/link"
 import {toast} from "sonner";
 import {useRouter} from "next/navigation";
 import {createUserWithEmailAndPassword, signInWithEmailAndPassword} from "@firebase/auth";
-import {auth} from "@/firebase/client";
+import {auth} from "../firebase/client";
 import {signIn, signUp} from "@/lib/actions/auth.action";
 
 const authFormSchema = (type: FormType) => {
