@@ -6,7 +6,7 @@ import Link from "next/link";
 import DisplayTechIcons from "@/components/DisplayTechIcons";
 
 const InterviewCard = ({
-                           interviewId, userId, role, type, techstack,
+                           interviewId, userId, id, role, type, techstack,
                            createdAt
                        }: InterviewCardProps) => {
     const feedback = null as Feedback | null;
@@ -44,8 +44,8 @@ const InterviewCard = ({
                     <DisplayTechIcons techStack={techstack}/>
                     <button className="btn-primary">
                         <Link href={feedback
-                            ? `/interview/${interviewId}/feedback` :
-                            `/interview/${interviewId}`}>
+                            ? `/interview/${id}/feedback` :
+                            `/interview/${id}`}>
                             {feedback ? "Check Feedback" : "Take interview"}
                         </Link>
                     </button>

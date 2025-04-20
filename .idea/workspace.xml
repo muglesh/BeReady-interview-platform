@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce81a654-617c-4e81-b8ff-d0827ac5cdde" name="Changes" comment="changes in authform" />
+    <list default="true" id="ce81a654-617c-4e81-b8ff-d0827ac5cdde" name="Changes" comment="changes in globals.css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/interview/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/interview/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Agent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Agent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/InterviewCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/InterviewCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions/auth.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/auth.action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +122,7 @@
       <workItem from="1744868179689" duration="594000" />
       <workItem from="1744868791306" duration="10046000" />
       <workItem from="1744953457813" duration="12123000" />
-      <workItem from="1745037428044" duration="8585000" />
+      <workItem from="1745037428044" duration="19524000" />
     </task>
     <task id="LOCAL-00001" summary="all static work done">
       <option name="closed" value="true" />
@@ -147,7 +156,31 @@
       <option name="project" value="LOCAL" />
       <updated>1745046235297</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changes in authform">
+      <option name="closed" value="true" />
+      <created>1745046326296</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745046326296</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changes in globals.css">
+      <option name="closed" value="true" />
+      <created>1745046603768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745046603768</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changes in globals.css">
+      <option name="closed" value="true" />
+      <created>1745048626020</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745048626020</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +190,7 @@
     <MESSAGE value="all static work done" />
     <MESSAGE value="ignore eslint and typescript for test" />
     <MESSAGE value="changes in authform" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in authform" />
+    <MESSAGE value="changes in globals.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in globals.css" />
   </component>
 </project>
