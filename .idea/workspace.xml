@@ -4,14 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce81a654-617c-4e81-b8ff-d0827ac5cdde" name="Changes" comment="changes in globals.css">
+    <list default="true" id="ce81a654-617c-4e81-b8ff-d0827ac5cdde" name="Changes" comment="changes to the agent and the questions asked">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/interview/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/interview/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/vapi/generate/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/vapi/generate/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Agent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Agent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DisplayTechIcons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DisplayTechIcons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FormField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FormField.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/InterviewCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/InterviewCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/authForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AuthForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/sonner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/sonner.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/client.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/actions/auth.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/auth.action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vapi.sdk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vapi.sdk.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +113,7 @@
       <recent name="D:\my_learning\React\projects\interview-platform\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_learning\React\projects\interview-platform\app\(root)\interview\[id]" />
       <recent name="D:\my_learning\React\projects\interview-platform" />
       <recent name="D:\my_learning\React\projects\interview-platform\public" />
       <recent name="D:\my_learning\React\projects\interview-platform\app\(root)" />
@@ -122,7 +141,7 @@
       <workItem from="1744868179689" duration="594000" />
       <workItem from="1744868791306" duration="10046000" />
       <workItem from="1744953457813" duration="12123000" />
-      <workItem from="1745037428044" duration="19524000" />
+      <workItem from="1745037428044" duration="33445000" />
     </task>
     <task id="LOCAL-00001" summary="all static work done">
       <option name="closed" value="true" />
@@ -180,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745048626020</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changes to the agent and the questions asked">
+      <option name="closed" value="true" />
+      <created>1745124806170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745124806170</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +218,7 @@
     <MESSAGE value="ignore eslint and typescript for test" />
     <MESSAGE value="changes in authform" />
     <MESSAGE value="changes in globals.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in globals.css" />
+    <MESSAGE value="changes to the agent and the questions asked" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to the agent and the questions asked" />
   </component>
 </project>

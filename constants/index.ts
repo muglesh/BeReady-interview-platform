@@ -1,6 +1,5 @@
 import {CreateAssistantDTO} from "@vapi-ai/web/dist/api";
 import {z} from "zod";
-// import {CreateAssistantDTO} from "@vapi-ai/web/api";
 
 export const mappings = {
     "react.js": "react",
@@ -191,7 +190,7 @@ export const feedbackSchema = z.object({
 });
 
 export const interviewCovers = [
-    '/adobe.png',
+    "/adobe.png",
     "/amazon.png",
     "/facebook.png",
     "/hostinger.png",

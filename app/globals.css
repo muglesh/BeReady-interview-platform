@@ -1,7 +1,7 @@
 @import "tailwindcss";
-@import "tw-animate-css";
 
 @plugin "tailwindcss-animate";
+
 @custom-variant dark (&:is(.dark *));
 
 @theme {
@@ -24,7 +24,7 @@
 
     --font-mona-sans: "Mona Sans", sans-serif;
 
-    --bg-pattern: url("public/pattern.png");
+    --bg-pattern: url("../public/pattern.png");
 }
 
 :root {
