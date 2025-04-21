@@ -98,11 +98,11 @@ export async function getLatestInterviews(
     const interviews = await db
         .collection("interviews")
         .orderBy("createdAt", "desc")
-        .where("finalized", "==", true)
+        .where("finalised", "==", true)
         .where("userId", "!=", userId)
         .limit(limit)
         .get();
-
+    console.log(interviews);
     return interviews.docs.map((doc) => ({
         id: doc.id,
         ...doc.data(),
